@@ -17,3 +17,27 @@ doest care about precision, only about general trends (linear,quadratic,constant
 
 the time or space complexity (as measured by Big 0)
 depends only on the algorithm, not the hardware used to run the algorithm
+
+
+How do you improve in solving problems 
+
+1 Devise a plan for solving problems
+
+2 Master a common problem solving patterns
+
+3 understand the problem: restate the problems in my own words,
+what are the inputs that go in the problem,
+what are the output that should come from the solution to the problem
+
+4 explore concrete examples
+
+5 break it down 
+
+6 solve/simplify
+
+7 look back and refactor
+
+Problem solving strategy...
+
+A simple , foolproof, magical, miraculous, fail-safe approach
+
