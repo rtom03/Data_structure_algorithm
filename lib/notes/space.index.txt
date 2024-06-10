@@ -25,17 +25,38 @@ How do you improve in solving problems
 
 2 Master a common problem solving patterns
 
-3 understand the problem: restate the problems in my own words,
-what are the inputs that go in the problem,
-what are the output that should come from the solution to the problem
+
+3 understand the problem: 
+~restate the problems in my own words,
+~what are the inputs that go in the problem,
+~what are the output that should come from the solution to the problem
+
 
 4 explore concrete examples
+~start with simple examples
+~progress to more complex examples
+~explore examples with empty inputs
+~explore examples with invalid inputs
 
 5 break it down 
+~explicityly write out the steps you need to take
+~
 
 6 solve/simplify
+~Find the core difficulty in what youre trying to do
+~temporarily ignore that difficulty
+~write a simplified solution
+~then incorparate that difficulty back in 
 
 7 look back and refactor
+~can you check the result
+~can you derive the result differently
+~can you understand it at a glance
+~can you use the result or method for some other problem?
+~can you improve the performance of your solution?
+~can you think of other ways to refactor?
+~how have other ppl solved this problem?
+
 
 Problem solving strategy...
 
