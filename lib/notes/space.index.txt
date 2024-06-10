@@ -1,0 +1,19 @@
+Space Complexity RUles of Thumb
+
+Most primitives (boolean,numbers,undefined,null)are constant space
+
+
+LOGARITHMS
+
+The logarithm of a number roughly measures 
+the number of times you can divide that number by 2 before you get a value thats less than or equal
+
+To analyze the performance of an algorithm, we use Big 0 Notation
+
+Big 0 can give us a high level understanding of the time 
+or space complexity of an algotithm
+
+doest care about precision, only about general trends (linear,quadratic,constant)
+
+the time or space complexity (as measured by Big 0)
+depends only on the algorithm, not the hardware used to run the algorithm
