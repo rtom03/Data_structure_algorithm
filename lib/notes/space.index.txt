@@ -21,10 +21,9 @@ depends only on the algorithm, not the hardware used to run the algorithm
 
 How do you improve in solving problems 
 
-1 Devise a plan for solving problems
+  
 
-2 Master a common problem solving patterns
-
+  // Prototype 1 Devise a plan for solving problems
 
 3 understand the problem: 
 ~restate the problems in my own words,
@@ -58,7 +57,24 @@ How do you improve in solving problems
 ~how have other ppl solved this problem?
 
 
-Problem solving strategy...
 
-A simple , foolproof, magical, miraculous, fail-safe approach
+   // prototype 2 Master a common problem solving patterns
+ 
+PATTERN FOR CODES 
+
+~Frequency Counter: This pattern uses objects or sets to collect values/frequencies of values
+This can often avoid the need for nested loops or 0(N^2)
+operations with arrays / strings
+
+~Multiple Pointers: 
+
+Sliding Window 
+
+Divide and Conquer
+
+Dynamic Programming
+
+Greedy Algorithms
+
+Backtracking
 
