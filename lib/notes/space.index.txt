@@ -66,9 +66,16 @@ PATTERN FOR CODES
 This can often avoid the need for nested loops or 0(N^2)
 operations with arrays / strings
 
-~Multiple Pointers: 
+~Multiple Pointers: creating pointers or values that correspond to an index or position and
+move towards the beginning,end or middle based on a certain condition
+very efficient for solving problems with minimal space complexity as well. 
 
-Sliding Window 
+
+Sliding Window: This pattern involves creating a window which can either 
+be an array or number fom one position to another
+Depending on a certain condition the window either increases or
+closes (and) new window is created
+Very useful for keeping track of a subset of data in an array/string etc.
 
 Divide and Conquer
 
