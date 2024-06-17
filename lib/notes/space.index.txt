@@ -1,0 +1,87 @@
+Space Complexity RUles of Thumb
+
+Most primitives (boolean,numbers,undefined,null)are constant space
+
+
+LOGARITHMS
+
+The logarithm of a number roughly measures 
+the number of times you can divide that number by 2 before you get a value thats less than or equal
+
+To analyze the performance of an algorithm, we use Big 0 Notation
+
+Big 0 can give us a high level understanding of the time 
+or space complexity of an algotithm
+
+doest care about precision, only about general trends (linear,quadratic,constant)
+
+the time or space complexity (as measured by Big 0)
+depends only on the algorithm, not the hardware used to run the algorithm
+
+
+How do you improve in solving problems 
+
+  
+
+  // Prototype 1 Devise a plan for solving problems
+
+3 understand the problem: 
+~restate the problems in my own words,
+~what are the inputs that go in the problem,
+~what are the output that should come from the solution to the problem
+
+
+4 explore concrete examples
+~start with simple examples
+~progress to more complex examples
+~explore examples with empty inputs
+~explore examples with invalid inputs
+
+5 break it down 
+~explicityly write out the steps you need to take
+~
+
+6 solve/simplify
+~Find the core difficulty in what youre trying to do
+~temporarily ignore that difficulty
+~write a simplified solution
+~then incorparate that difficulty back in 
+
+7 look back and refactor
+~can you check the result
+~can you derive the result differently
+~can you understand it at a glance
+~can you use the result or method for some other problem?
+~can you improve the performance of your solution?
+~can you think of other ways to refactor?
+~how have other ppl solved this problem?
+
+
+
+   // prototype 2 Master a common problem solving patterns
+ 
+PATTERN FOR CODES 
+
+~Frequency Counter: This pattern uses objects or sets to collect values/frequencies of values
+This can often avoid the need for nested loops or 0(N^2)
+operations with arrays / strings
+
+~Multiple Pointers: creating pointers or values that correspond to an index or position and
+move towards the beginning,end or middle based on a certain condition
+very efficient for solving problems with minimal space complexity as well. 
+
+
+Sliding Window: This pattern involves creating a window which can either 
+be an array or number fom one position to another
+Depending on a certain condition the window either increases or
+closes (and) new window is created
+Very useful for keeping track of a subset of data in an array/string etc.
+
+Divide and Conquer
+
+Dynamic Programming
+
+Greedy Algorithms
+
+Backtracking
+
