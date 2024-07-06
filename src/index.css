@@ -1,22 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-:root {
+/* :root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+} */
+.header{
+  font-family: "Concert One";
+  font-size: 25px;
+  font-weight: bolder;
+ 
 }
 .ga-maamli-regular {
-  font-family: "Concert One";
   font-weight: bold;
-  margin-left: 20px;
-  border-right: 1px solid gray;
-  width: 200px;
+  /* margin-left: 20px; */
+  /* border-right: 1px solid gray; */
+  width: 230px;
   position: fixed;
   height: 100vh;
  padding: 10px;
+ background-color: black;
+ color: azure;
 }
 .tab-links{
  display: flex;
