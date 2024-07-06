@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.16.0",
     "chart.js": "^4.4.3",
     "json-server": "^1.0.0-beta.1",
+    "mui": "^0.0.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.24.1",
     "react-toastify": "^10.0.5"
   },
   "devDependencies": {
