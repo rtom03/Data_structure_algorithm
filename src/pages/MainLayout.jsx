@@ -8,7 +8,7 @@ const MainLayout = () => {
     <div className='flex flex-row gap-36'>
       <Navbar />
       {/* <Box overflow="hidden" flexGrow={1}> */}
-      <div className='ml-60 mt-10'>
+      <div className='ml-72 mt-10'>
       <Outlet />
       </div>
       {/* </Box> */}
