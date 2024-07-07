@@ -3,45 +3,88 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* :root {
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-} */
 .header{
-  font-family: "Concert One";
+ 
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: bold;
  
 }
 .ga-maamli-regular {
   font-weight: bold;
   /* margin-left: 20px; */
   /* border-right: 1px solid gray; */
-  width: 230px;
+  width: 250px;
   position: fixed;
   height: 100vh;
  padding: 10px;
- background-color: black;
+ background-color: #323232;
  color: azure;
 }
 .tab-links{
+ 
  display: flex;
  flex-direction: column;
- gap: 40px;
+ font-size: 18px;
+ gap: 21px;
+ font-weight: 400;
+ 
+}
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-normal {
+  font-weight: 400; /* Normal weight */
+}
+
+.font-bold {
+  font-weight: 700; /* Bold weight */
 }
 .tab-links::after{
   
+  /* height: 3px;
+  background: #007F00 ;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+  width:0; */
+}
+.tab-link.active-link::after{
+  width:100%;
+}
+
+
+.tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid gray;
+}
+.tab-link{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.tab-link::after{
+  content:'';
+  width: 0;
   height: 3px;
   background: #007F00 ;
   position: absolute;
   left: 0;
   bottom: -8px;
   transition: 0.5s;
-  width:0;
+  
 }
-.tab-links.active-link::after{
+.tab-link.active-link::after{
   width:100%;
 }
-
+.tab-contents{
+  display: none;
+}
+.tab-contents.active-tab{
+  display: block;
+}

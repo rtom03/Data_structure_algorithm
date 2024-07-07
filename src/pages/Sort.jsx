@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Sorting = () => {
+const Sort = () => {
   return (
     <div>
-      
-    </div>
+     <h1 className='font-bold text-base text-dataGray'>Sort Algorithm</h1> 
+     </div>
   )
 }
 
-export default Sorting
+export default Sort
