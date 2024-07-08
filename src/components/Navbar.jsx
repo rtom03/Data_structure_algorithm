@@ -2,7 +2,7 @@
 import React from 'react';
 import { routes } from '../config/route';
 import { Link } from 'react-router-dom';
-import { FaBars, FaHashtag, FaRedo, FaSearch, FaSync } from 'react-icons/fa';
+import { FaBars, FaHashtag, FaRedo, FaSearch, FaStaylinked, FaSync } from 'react-icons/fa';
 import { MdDashboard } from 'react-icons/md';
 import { FaChartLine, FaSort, FaTree } from 'react-icons/fa6';
 
@@ -19,6 +19,7 @@ const Navbar = () => {
             <FaSync size={17} className='mt-1'/>
             <FaChartLine size={17} />
             <FaHashtag size={17} />
+            <FaStaylinked />
             <FaRedo size={17} />
             <FaSearch size={17} />
             <FaSort size={17} />
