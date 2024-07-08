@@ -12,6 +12,10 @@ export const routes = [
     name:'Hashed Algorithm',
     path:'/hashe_dalgorithm',
    },{
+    name:'Linked List',
+    path:'/linked_list',
+   },
+   {
     name:'Recursion ',
     path:'/recursion_algorithm',
    },{

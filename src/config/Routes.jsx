@@ -1,6 +1,7 @@
 import Dynamic from "../pages/Dynamic";
 import Graph from "../pages/Graph";
 import Hashed from "../pages/Hashed";
+import LinkedList from "../pages/LinkedList";
 import Recursion from "../pages/Recursion";
 import Search from "../pages/Search";
 import Sort from "../pages/Sort";
@@ -20,6 +21,11 @@ export const route = [
     path:'/hashe_dalgorithm',
     element:<Hashed/>
    },{
+    name:'Linked List',
+    path:'/linked_list',
+    element:<LinkedList/>
+   },
+   {
     name:'Recursion Algorithm',
     path:'/recursion_algorithm',
     element:<Recursion/>
