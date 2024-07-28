@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-.header{
- 
+.header {
+
   font-size: 25px;
   font-weight: bold;
- 
+
 }
+
 .ga-maamli-regular {
   font-weight: bold;
   /* margin-left: 20px; */
@@ -16,33 +18,38 @@
   width: 250px;
   position: fixed;
   height: 100vh;
- padding: 10px;
- background-color: #323232;
- color: azure;
+  padding: 10px;
+  background-color: #323232;
+  color: azure;
 }
-.tab-links{
- 
- display: flex;
- flex-direction: column;
- font-size: 15px;
- gap: 26px;
- font-weight: 400;
- margin-top: 3px;
- 
+
+.tab-links {
+
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  gap: 26px;
+  font-weight: 400;
+  margin-top: 3px;
+
 }
+
 body {
   font-family: 'Outfit', sans-serif;
 }
 
 .font-normal {
-  font-weight: 400; /* Normal weight */
+  font-weight: 400;
+  /* Normal weight */
 }
 
 .font-bold {
-  font-weight: 700; /* Bold weight */
+  font-weight: 700;
+  /* Bold weight */
 }
-.tab-links::after{
-  
+
+.tab-links::after {
+
   /* height: 3px;
   background: #007F00 ;
   position: absolute;
@@ -51,41 +58,47 @@ body {
   transition: 0.5s;
   width:0; */
 }
-.tab-link.active-link::after{
-  width:100%;
+
+.tab-link.active-link::after {
+  width: 100%;
 }
 
 
-.tab-titles{
+.tab-titles {
   display: flex;
   margin: 20px 0 40px;
   padding-bottom: 8px;
   border-bottom: 1px solid gray;
 }
-.tab-link{
+
+.tab-link {
   margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
 }
-.tab-link::after{
-  content:'';
+
+.tab-link::after {
+  content: '';
   width: 0;
   height: 3px;
-  background: #007F00 ;
+  background: #007F00;
   position: absolute;
   left: 0;
   bottom: -8px;
   transition: 0.5s;
-  
+
 }
-.tab-link.active-link::after{
-  width:100%;
+
+.tab-link.active-link::after {
+  width: 100%;
 }
-.tab-contents{
+
+.tab-contents {
   display: none;
 }
-.tab-contents.active-tab{
+
+.tab-contents.active-tab {
   display: block;
 }

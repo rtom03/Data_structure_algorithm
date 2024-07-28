@@ -2,9 +2,10 @@
 import React from 'react';
 import { routes } from '../config/route';
 import { Link } from 'react-router-dom';
-import { FaBars, FaHashtag, FaRedo, FaSearch, FaStaylinked, FaSync } from 'react-icons/fa';
+import { FaBars, FaHashtag, FaQuinscape, FaRedo, FaSearch, FaStaylinked, FaSync } from 'react-icons/fa';
 import { MdDashboard } from 'react-icons/md';
-import { FaChartLine, FaSort, FaTree } from 'react-icons/fa6';
+import { FaBinoculars, FaChartLine, FaSort, FaTree } from 'react-icons/fa6';
+import QueueIcon from '@mui/icons-material/Queue';
 
 const Navbar = () => {
   return (
@@ -16,14 +17,17 @@ const Navbar = () => {
         </div>
         <div className='flex flex-row items-start'>
           <div className='flex flex-col gap-8 pr-4'>
-            <FaSync size={17} className='mt-1'/>
+            <FaSync size={17} className='mt-1' />
             <FaChartLine size={17} />
             <FaHashtag size={17} />
             <FaStaylinked />
             <FaRedo size={17} />
             <FaSearch size={17} />
             <FaSort size={17} />
-            <FaTree size={17} className='mb-2'/>
+            <FaTree size={17} className='mb-2' />
+
+
+
           </div>
           <div className='tab-links'>
             {routes.map((page) => (
