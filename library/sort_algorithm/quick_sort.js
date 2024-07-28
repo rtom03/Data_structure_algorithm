@@ -33,5 +33,5 @@ function quickSort(arr, left = 0, right = arr.length - 1) {
     }
     return arr;
 }
-const dir = quickSort([5, 8, 1, 3, 6, 2, 4, 7])
+const dir = quickSort([4, 2, 6, 3, 1, 5, 8, 7])
 console.log(dir)
