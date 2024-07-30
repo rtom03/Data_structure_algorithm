@@ -44,8 +44,8 @@ export const route = [
         path: '/tree_traversal_algorithm',
         element: <TreeTraversal />
     }, {
-        name: 'Queues',
-        path: '/queues',
+        name: 'Data Structure',
+        path: '/data_structure',
         element: <Queues />
     }, {
         name: 'Binary Heap',

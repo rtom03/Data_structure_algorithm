@@ -28,8 +28,8 @@ export const routes = [
         name: 'Tree Traversal',
         path: '/tree_traversal_algorithm',
     }, {
-        name: 'Queues',
-        path: '/queues',
+        name: 'Data Structure',
+        path: '/data_structure',
     }, {
         name: 'Binary Heap',
         path: '/binary_heap',
