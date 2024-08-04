@@ -1,10 +1,9 @@
 import React from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../@/components/ui/tabs"
 
-const DataStructure = () => {
+const TabsNavigation = () => {
     return (
         <div>
-            <h2>Data Structure</h2>
             <Tabs defaultValue="account" className="w-[400px]">
                 <TabsList>
                     <TabsTrigger value="account">Account</TabsTrigger>
@@ -13,8 +12,9 @@ const DataStructure = () => {
                 <TabsContent value="account">Make changes to your account here.</TabsContent>
                 <TabsContent value="password">Change your password here.</TabsContent>
             </Tabs>
+
         </div>
     )
 }
 
-export default DataStructure
+export default TabsNavigation

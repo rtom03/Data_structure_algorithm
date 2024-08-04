@@ -1,9 +1,9 @@
 import BinaryHeap from "../pages/BinaryHeap";
+import DataStructure from "../pages/DataStructure";
 import Dynamic from "../pages/Dynamic";
 import Graph from "../pages/Graph";
 import Hashed from "../pages/Hashed";
 import LinkedList from "../pages/LinkedList";
-import Queues from "../pages/Queues";
 import Recursion from "../pages/Recursion";
 import Search from "../pages/Search";
 import Sort from "../pages/Sort";
@@ -46,7 +46,7 @@ export const route = [
     }, {
         name: 'Data Structure',
         path: '/data_structure',
-        element: <Queues />
+        element: <DataStructure />
     }, {
         name: 'Binary Heap',
         path: '/binary_heap',
