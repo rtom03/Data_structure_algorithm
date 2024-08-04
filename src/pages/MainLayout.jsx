@@ -10,7 +10,7 @@ const MainLayout = () => {
       <Navbar />
       {/* <Box overflow="hidden" flexGrow={1}> */}
       <div className='ml-72 mt-10'>
-        <Home />
+        {/* <Home /> */}
         <Outlet />
       </div>
       {/* </Box> */}
