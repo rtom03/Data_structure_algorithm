@@ -16,9 +16,6 @@ export const routes = [
         path: '/linked_list',
     },
     {
-        name: 'Recursion ',
-        path: '/recursion_algorithm',
-    }, {
         name: 'Search Algorithm',
         path: '/search_algorithm',
     }, {
@@ -30,8 +27,5 @@ export const routes = [
     }, {
         name: 'Data Structure',
         path: '/data_structure',
-    }, {
-        name: 'Binary Heap',
-        path: '/binary_heap',
     }
 ]

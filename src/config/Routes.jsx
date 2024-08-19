@@ -1,10 +1,8 @@
-import BinaryHeap from "../pages/BinaryHeap";
 import DataStructure from "../pages/DataStructure";
 import Dynamic from "../pages/Dynamic";
 import Graph from "../pages/Graph";
 import Hashed from "../pages/Hashed";
 import LinkedList from "../pages/LinkedList";
-import Recursion from "../pages/Recursion";
 import Search from "../pages/Search";
 import Sort from "../pages/Sort";
 import TreeTraversal from "../pages/TreeTraversal";
@@ -28,10 +26,6 @@ export const route = [
         element: <LinkedList />
     },
     {
-        name: 'Recursion Algorithm',
-        path: '/recursion_algorithm',
-        element: <Recursion />
-    }, {
         name: 'Search Algorithm',
         path: '/search_algorithm',
         element: <Search />
@@ -47,9 +41,5 @@ export const route = [
         name: 'Data Structure',
         path: '/data_structure',
         element: <DataStructure />
-    }, {
-        name: 'Binary Heap',
-        path: '/binary_heap',
-        element: <BinaryHeap />
     }
 ]
