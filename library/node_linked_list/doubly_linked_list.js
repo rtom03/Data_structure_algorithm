@@ -36,7 +36,7 @@ class DoublyLinkedList {
         } else {
             this.tail = poppedNode.prev;
             this.tail.next = null;
-            poppedNode.prev = null
+            // poppedNode.prev = null
         }
         this.length--;
         return poppedNode;
@@ -68,7 +68,6 @@ class DoublyLinkedList {
         }
         this.length++;
         return newNode;
-
     }
     get(index) {
         if (index < 0 || index >= this.length) return null;
@@ -133,6 +132,6 @@ nodeValue.push(10)
 nodeValue.push(11)
 nodeValue.push(12)
 nodeValue.push(13)
-nodeValue.remove(2)
+nodeValue.pop()
 
 console.log(nodeValue)

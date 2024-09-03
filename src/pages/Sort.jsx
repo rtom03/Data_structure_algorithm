@@ -1,8 +1,35 @@
 import React from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../@/components/ui/tabs"
 
-
 const Sort = () => {
+
+  function merge(arr1, arr2) {
+    let output = []
+    let i = 0;
+    let j = 0;
+
+    while (i < arr1.length && j < arr2.length) {
+      if (arr1[i] < arr2[j]) {
+        output.push(arr1[i])
+        i++;
+      } else {
+        output.push(arr2[j])
+        j++
+      }
+    }
+    while (i < arr1[i]) {
+      output.push(arr1[i])
+      i++
+    }
+    while (j < arr2[j]) {
+      output.push(arr2[j])
+      j++
+    }
+    return output;
+  }
+
+  const res = merge([2, 4, 6, 8], [1, 3, 5, 7])
+  console.log(res)
   return (
     <div>
       <h1 className='font-bold text-base text-dataGray'>Sort Algorithm</h1>
